@@ -1,0 +1,204 @@
+.theme{
+    background-color: #272626;
+    color: #ffffff;
+}
+.navtxt{
+    color: #ffffff !important;
+}
+:root{
+    --themebg:#272626;
+    --themecolor:#ffffff;
+    --navtxtcolor: #ffffff;
+    --nav-linkcolor:#272626;
+    --searchbg:#ebebeb;
+    --btn-loginbg:#ebebeb;
+    --btn-signUpbg:black;
+    --btn-signUpcolor:#ffffff;
+    --offersbg:#272626;
+    --offer-txtcolor:aliceblue;
+    --morecolor: aliceblue;
+    --productbg:white;
+    --shopcolor: #b8b5b5;
+    --shop-mainbg:white;
+    --Allcolor: #272626;
+    --lineborder:#e3e3e3;
+    --cartbg:#ffffff;
+    --tech-mainbg: #cfcfcf;
+    --discoverbg:#ac85ff;
+    --discovercolor:#ffffff;
+    --Contactbg: #c0f447;
+    --navlinkcl:black;
+    --themebglight:white;
+    --form-check-label:#272626;
+    --Contactcolor: #272626;
+    --tech-maincolor: #272626;
+
+
+
+}
+
+.bi-xbox{
+    color: var(--navlinkcl) !important;
+    font-size: 30px;
+
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: var(--themebglight) !important;
+}
+.nav-link{
+    font-weight: 500 !important;
+    color: var(--navlinkcl) !important;
+    margin-right: 10px;
+}
+.dark-theme{
+    --navlinkcl:rgb(224, 224, 224);
+    --themebglight:#1f212c;
+    --form-check-label:rgb(240, 240, 240);
+    --Contactbg: #61840f;
+    --discoverbg:#5d4297;
+    --tech-mainbg: #807e7e;
+    --Contactcolor: #ffffff;
+    --tech-maincolor: #ffffff;
+    --offersbg:#373a48;
+
+
+}
+.search{
+    background-color:#ebebeb ;
+    width: 200px;
+    padding-left: 12px !important;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+}
+.btn-login{
+    background-color: #ebebeb;
+    margin-right: 15px;
+    border-radius: 7px;
+    font-weight: 500;
+    border: none;
+
+}
+.btn-signUp{
+    background-color: black;
+    width: 107px;
+    border-radius: 9px;
+    color: #ffffff;
+    font-weight: 500;
+    padding: 5px;
+}
+.offers{
+    background-color: var(--offersbg);
+    border-radius: 20px;
+    padding: 30px;
+    position: relative;
+}
+.off-main{
+    position: absolute;
+    top: 195px;
+    left: 290px;
+    
+}
+.offer-img{
+    width: 250px !important;
+    height: 250px !important;
+}
+.offer-txt{
+    color: aliceblue;
+}
+.more{
+    color: aliceblue;
+    font-size: 50px;
+    line-height: 1.2;
+}
+.product{
+    width: 185px;
+    margin-top: 100px;
+    padding-left: 5px;
+    border-radius: 7px;
+    background-color: white;
+}
+.shop{
+    margin-right:30px;
+    color: #b8b5b5;
+}
+.icon{
+    font-size: 30px;
+}
+.shop-main{
+    border: none;
+    background-color: white;
+    margin-right: 10px;
+}
+.All{
+    margin-left: 10px;
+    color: #272626;
+    font-weight: 500;
+}
+.line{
+    border-left: 1px solid #e3e3e3 !important;
+    margin-right: 10px;
+}
+.cart{
+    border: none;
+    background-color: #ffffff;
+}
+.tech{
+    font-weight: 500;
+}
+.tech-main{
+    background-color: var(--tech-mainbg);
+    border-radius: 20px; 
+    padding: 20px;
+    color: var(--tech-maincolor);
+}
+.blog{
+    margin-top: 80px;
+}
+.discover{
+    background-color:var(--discoverbg);
+    padding: 10px;
+    border-radius: 20px;
+    color: #ffffff;
+    font-weight: 500;
+    position: relative;
+}
+.bi-arrow-up-right{
+    font-size: 25px;
+}
+.about{
+    margin-top: 80px;
+}
+.about-sub{
+    position: absolute;
+    top: -190px;
+    left: 315px;
+}
+.about-img{
+    width: 200px;
+    height: 200px;
+}
+.Contact{
+    background-color: var(--Contactbg);
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: 500;
+    color: var(--Contactcolor);
+}
+.bi-send{
+    font-size: 25px;
+}
+.cont-txt{
+    margin-top: 80px;
+}
+.logo{
+    width: 30px;
+    height: 30px;
+}
+.form-check-label{
+    color:var(--form-check-label);
+    
+}
